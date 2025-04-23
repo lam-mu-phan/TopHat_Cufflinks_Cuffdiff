@@ -1,0 +1,23 @@
+
+[2025-04-22 16:18:03] Beginning TopHat run (v2.0.14)
+-----------------------------------------------
+[2025-04-22 16:18:03] Checking for Bowtie
+		  Bowtie version:	 2.2.5.0
+[2025-04-22 16:18:03] Checking for Bowtie index files (genome)..
+[2025-04-22 16:18:03] Checking for reference FASTA file
+[2025-04-22 16:18:03] Generating SAM header for athal/athal
+[2025-04-22 16:18:04] Preparing reads
+	 left reads: min. length=50, max. length=50, 57985 kept reads (0 discarded)
+[2025-04-22 16:18:17] Mapping left_kept_reads to genome athal with Bowtie2 
+[2025-04-22 16:18:20] Mapping left_kept_reads_seg1 to genome athal with Bowtie2 (1/2)
+[2025-04-22 16:18:21] Mapping left_kept_reads_seg2 to genome athal with Bowtie2 (2/2)
+[2025-04-22 16:18:21] Searching for junctions via segment mapping
+[2025-04-22 16:18:23] Retrieving sequences for splices
+[2025-04-22 16:18:24] Indexing splices
+[2025-04-22 16:18:26] Mapping left_kept_reads_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2025-04-22 16:18:26] Mapping left_kept_reads_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2025-04-22 16:18:28] Joining segment hits
+[2025-04-22 16:18:30] Reporting output tracks
+-----------------------------------------------
+[2025-04-22 16:18:35] A summary of the alignment counts can be found in Tophat/Day16/align_summary.txt
+[2025-04-22 16:18:35] Run complete: 00:00:31 elapsed
